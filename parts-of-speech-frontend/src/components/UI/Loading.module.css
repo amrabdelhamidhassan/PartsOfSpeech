@@ -1,0 +1,14 @@
+.Logo
+{
+  width: 4vw;
+  height: 4vw;
+  border-radius: 4vw;
+  margin-top: 4vh;
+  animation: LogoAnimation 1s infinite;
+
+}
+
+@keyframes LogoAnimation {
+    from  {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+    }

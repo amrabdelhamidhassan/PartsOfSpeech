@@ -1,0 +1,26 @@
+@value primaryColor,greenColor,redColor, blackColor,whiteColor from '../data/maincolors.css';
+@value primaryFont from '../data/mainfonts.css';
+
+.RankScreen
+{
+    display: flex;
+    flex-direction: column;
+    margin: 1vh 10vh;
+    justify-content: center;
+    align-items: center;
+
+}
+.RankText
+{
+    font-size: 3vh;
+    font-weight: bold;
+    font-family: primaryFont;
+    color: primaryColor;
+    text-align: center;
+}
+.error
+{
+    font-size: 3vh;
+    font-family: primaryFont;
+    color: redColor;
+}

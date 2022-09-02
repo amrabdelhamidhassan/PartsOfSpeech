@@ -1,0 +1,34 @@
+@value primaryColor,greenColor,redColor, blackColor,whiteColor from '../../data/maincolors.css';
+@value primaryFont from '../../data/mainfonts.css';
+
+.ChoiceHead
+{
+    font-size: 2.7vh;
+    font-family:primaryFont ;
+    color: primaryColor;
+    margin-top: 3vh;
+    text-align: center;
+    box-shadow: 0.1vw 0.1vw primaryColor;
+    border-radius: 0.5vw;
+    background-color: whiteColor;
+    padding: 0.5vw;
+
+}
+.ChoiceHead.rightSelected
+{
+    background-color: greenColor;
+    color:whiteColor;
+}
+.ChoiceHead.wrongSelected
+{
+    background-color: redColor;
+    color:whiteColor;
+
+}
+
+.ChoiceHead:hover
+{
+    opacity: 0.8;
+    cursor: pointer;
+
+}

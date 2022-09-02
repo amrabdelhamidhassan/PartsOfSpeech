@@ -1,0 +1,25 @@
+@value primaryColor, blackColor,whiteColor from '../../data/maincolors.css';
+
+.Header {
+  background: primaryColor;
+  display: flex;
+  flex-direction: row;
+}
+.HeaderTitle
+{
+    color: whiteColor;
+    font-weight: bold;
+    font-size: 3.5vh;
+    margin:1vw 0vw 1vw 10vw;
+
+}
+.HeaderTitle:hover
+{
+    cursor: pointer;
+}
+.Logo
+{
+  width: 6vh;
+  height: 6vh;
+  border-radius: 6vh;
+}

@@ -1,0 +1,17 @@
+@value primaryColor,greenColor,redColor, blackColor,whiteColor from '../data/maincolors.css';
+@value primaryFont from '../data/mainfonts.css';
+
+.PracticeScreen
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1vh;
+    justify-content: center;
+    align-items: center;
+}
+.error
+{
+    font-size: 3vh;
+    font-family: primaryFont;
+    color: redColor;
+}

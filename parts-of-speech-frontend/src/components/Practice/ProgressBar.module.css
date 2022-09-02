@@ -1,0 +1,45 @@
+@value primaryColor, blackColor,whiteColor from '../../data/maincolors.css';
+@value primaryFont from '../../data/mainfonts.css';
+
+.ProgressBar
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+}
+.ProgressBarBox
+{
+
+    width: 50vw;
+    height: 5vh;
+    background-color: lightgray;
+    color: whiteColor;
+    border-radius: 4vw;
+
+}
+.Highlighted
+{
+    height: 100%;
+    background-color: primaryColor;
+    border-radius: 4vw;
+    transition: width 1.5s;
+
+}
+.ProgressBarLabel
+{
+    color: primaryColor;
+    font-family: primaryFont;
+    font-style: italic;
+    font-size: 2vh;
+}
+.percentageSpan
+{
+    text-align: center;
+    font-family: primaryFont;
+    font-size: 2.5vh;
+    font-style: italic;
+    font-family: bold;
+    margin-left: 23vw;
+}

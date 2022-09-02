@@ -1,0 +1,23 @@
+@value primaryColor, blackColor,whiteColor from '../../data/maincolors.css';
+@value primaryFont from '../../data/mainfonts.css';
+
+.Introduction
+{
+    display: flex;
+    margin:1vw 10vw;
+    padding: 1vw;
+    animation-name: IntroductionAnimation;
+    animation-duration: 2s;
+    }
+.IntroductionText
+{
+    font-size: 3vh;
+    font-family: primaryFont;
+    font-weight: bold;
+    color: primaryColor;
+    text-align: center;
+}
+@keyframes IntroductionAnimation {
+from  {transform:translateX(-100%)}
+to {transform:translateX(0)}
+}
